@@ -1,0 +1,9 @@
+coqui-tts
+streamlit
+openai-whisper
+soundfile
+pydub
+pykakasi
+requests
+huggingface_hub
+numpy
