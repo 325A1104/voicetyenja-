@@ -1,9 +1,10 @@
-coqui-tts
 streamlit
-openai-whisper
-soundfile
-pydub
-pykakasi
 requests
-huggingface_hub
+pydub
 numpy
+soundfile
+pykakasi
+huggingface-hub
+openai-whisper
+torch
+TTS
