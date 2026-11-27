@@ -7,4 +7,3 @@ pykakasi
 huggingface-hub
 openai-whisper
 torch
-TTS
