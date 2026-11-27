@@ -5,8 +5,8 @@ import requests
 import streamlit as st
 from pydub import AudioSegment
 
-st.set_page_config(page_title="ずんだもん音声スタジオ", page_icon="🌱")
-st.title("🌱 ずんだもん音声スタジオ（VOICEVOX）")
+st.set_page_config(page_title="ボイスチェンジャーアプリ", page_icon="🌱")
+st.title("🌱 ボイスチェンジャーアプリ（VOICEVOX）")
 st.caption("①ファイルから全文抽出 ②テキストの読み上げ ③マイクで音を拾って抽出＆お喋り")
 
 VOICEVOX_URL = os.environ.get("VOICEVOX_URL", "http://127.0.0.1:50021")
@@ -166,7 +166,7 @@ with tab1:
 with tab2:
     text = st.text_area(
         "読み上げるテキスト",
-        "こんにちは！ぼくはずんだもんなのだ！今日も元気に喋るのだ！",
+        "なんだ、全然痛くね？つって。は？こんだけ食らってるのに、なんだこれ……なんで俺は死なねえんだ？",
         max_chars=300,
     )
     if st.button("ずんだもんに読み上げさせる 🔊") and text.strip():
